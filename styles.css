@@ -1,0 +1,31 @@
+body{
+	margin: 0 auto;
+	/*max-width: 50em;*/
+	text-align:center;
+}
+
+.center-header{
+	text-align: center;
+}
+
+.nav-button{
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid #5D6063;
+	text-align: center;
+	width: 150px;
+	margin-left: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color:#A3F4F5;
+	color: #111;
+}
+
+.nav-button:hover{
+	background-color: #93A4A5;
+}
+
+#navbar{
+	margin: 50px auto;
+	width: auto;
+}
