@@ -4,15 +4,38 @@
 		<meta charset='UTF-8'/>
 		<title>Alexander J. Stewart</title>
 		<link rel='stylesheet' href='styles.css'/>
+		<script type="text/javascript">
+			
+			writeRandomQuote = function () {
+				var quotes = new Array();
+				quotes[0] = "I have a black belt in Tae Kwon Do!";
+				quotes[1] = "My elbows are double jointed! People tend to not like it when I show them though";
+				quotes[2] = "I once got chased by a dog through the woods while running in cross country";
+				quotes[3] = "I can make really good homemade macaroni and cheese!";
+				quotes[4] = "You gotta eat the lettuce";
+				quotes[5] = "My mains in Smash Ultimate are Lucas, Olimar, and Little Mac";
+				quotes[6] = "My favorite book series is Hitchiker's Guide to the Galaxy";
+				var rand = Math.floor((Math.random()*10)%quotes.length);
+				document.write(quotes[rand]);
+			}
+			
+		</script>
 	</head>
 	<body>
-		<h1 class="center-header">Alexander J. Stewart</h1>
-		<div id = 'navbar'>
-		<a class='nav-button' href='about.html'>about</a>
-		<a class='nav-button' href='work.html'>work</a>
-		<a class='nav-button' href='coursework.html'>coursework</a>
-		<a class='nav-button' target = '_blank' href='AlexanderStewartResume1.pdf'>resume</a>
+		<div class="center-header">
+			<h1>Alexander J. Stewart</h1>
+			<div id = 'navbar'>
+			<a class='nav-button' href='about.html'>about</a>
+			<a class='nav-button' href='work.html'>work</a>
+			<a class='nav-button' href='coursework.html'>coursework</a>
+			<a class='nav-button' target = '_blank' href='AlexanderStewartResume1.pdf'>resume</a>
+			</div>
+			<h2>Fun Fact:</h2>
+			<script type="text/javascript">writeRandomQuote();</script>
 		</div>
-		<h4>There are lots of places where I didn't fully write everything out, like there's no stuff in the about page. It's late so I'm gonna do that later</h4>
+		<h4>I feel like I might want some text on this page but I'm not sure what so if I do put anything it'll go down here</h4>
 	</body>
+	<footer>
+		<p>Photo by Paweł Czerwiński on Unsplash</p>
+	</footer>
 </html>

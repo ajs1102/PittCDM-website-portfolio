@@ -1,11 +1,27 @@
+@font-face{
+	font-family: Exo-Demi;
+	src: url(Exo2-SemiBold.otf);
+}
+
+
 body{
 	margin: 0 auto;
 	/*max-width: 50em;*/
 	text-align:center;
+	background-color:	#696969;
 }
 
 .center-header{
+	font-family: Exo-Demi;
 	text-align: center;
+	line-height: 0;
+	padding-top:5em;
+	padding-bottom:20em;
+	background-image:url('pawel-czerwinski-1QAXTrmx5rU-unsplash.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size:auto;
+	color: #F8F8FF;
 }
 
 .nav-button{
@@ -17,12 +33,15 @@ body{
 	margin-left: 20px;
 	padding: 20px;
 	border-radius: 10px;
-	background-color:#A3F4F5;
-	color: #111;
+	background-color:#D8BFD8;
+}
+
+a:visited, a:link, a:active, a:hover{
+	color: #0;
 }
 
 .nav-button:hover{
-	background-color: #93A4A5;
+	background-color: #DDA0DD;
 }
 
 #navbar{

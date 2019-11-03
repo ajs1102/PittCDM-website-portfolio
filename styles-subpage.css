@@ -1,5 +1,20 @@
+@font-face{
+	font-family: Exo-Demi;
+	src: url(Exo2-SemiBold.otf);
+}
+
 #navbar{
-	background-color:#FFFFFF;
+	font-family: Exo-Demi;
+	background-color:#696969;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+h1, h2, h3{
+	font-family: Exo-Demi;
 }
 
 .subject{
@@ -9,4 +24,31 @@
 page{
 	max-width: 50em;
 	text-align:left;
+}
+
+.page-header{
+	text-align:center;
+	padding-top: 2em;
+}
+
+.nav-button{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	width: auto;
+	height:50px;
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+.nav-button:hover{
+	background-color: #DDA0DD;
+}
+
+a{
+	padding-top: 1em;
+}
+
+li{
+	font-weight: bold;
 }
