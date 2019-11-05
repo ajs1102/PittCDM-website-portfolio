@@ -21,9 +21,11 @@ h1, h2, h3{
 	
 }
 
-page{
+body{
 	max-width: 50em;
 	text-align:left;
+	margin: auto;
+	background-color: #420069;
 }
 
 .page-header{
