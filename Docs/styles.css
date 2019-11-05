@@ -8,19 +8,24 @@ body{
 	margin: 0 auto;
 	/*max-width: 50em;*/
 	text-align:center;
-	background-color:	#696969;
+	/*background-color:	#696969;*/
+}
+
+html { 
+  background: url('pawel-czerwinski-1QAXTrmx5rU-unsplash.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:	#696969;
 }
 
 .center-header{
 	font-family: Exo-Demi;
 	text-align: center;
 	line-height: 0;
-	padding-top:5em;
-	padding-bottom:20em;
-	background-image:url('pawel-czerwinski-1QAXTrmx5rU-unsplash.jpg');
-	background-repeat: no-repeat;
+	padding-top: 10em;
 	width: 100%;
-	background-size:auto;
 	color: #F8F8FF;
 }
 
@@ -47,4 +52,8 @@ a:visited, a:link, a:active, a:hover{
 #navbar{
 	margin: 50px auto;
 	width: auto;
+}
+
+footer{
+	margin: 0 auto;
 }
