@@ -17,8 +17,12 @@ h1, h2, h3{
 	font-family: Exo-Demi;
 }
 
-.subject{
-	
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5em;
+	width: 50%;
 }
 
 body{
@@ -30,7 +34,7 @@ body{
 
 .page-header{
 	text-align:center;
-	padding-top: 2em;
+	padding-top: 1.5em;
 }
 
 .nav-button{
@@ -53,4 +57,34 @@ a{
 
 li{
 	font-weight: bold;
+}
+
+figure{
+	padding-top: 0;
+	padding-bottom:0;
+	text-align: center;
+	font-style: italic;
+	width: 50em;
+	margin:auto;
+}
+
+figcaption{
+	padding-bottom: 1em;
+}
+
+
+Details{
+	background-color: #898989;
+}
+
+Summary{
+	background-color: #DDA0DD;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border:2px solid #5D6063;
+	border-radius:5px;
+}
+
+Summary:hover{
+	background-color: #D090D0;
 }
