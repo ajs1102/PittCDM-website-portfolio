@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'/>
+		<title>Alexander J. Stewart</title>
+		<link rel='stylesheet' href='styles.css'/>
+		<script type="text/javascript">
+			
+			writeRandomQuote = function () {
+				var quotes = new Array();
+				quotes[0] = "I have a black belt in Tae Kwon Do!";
+				quotes[1] = "My elbows are double jointed! People tend to not like it when I show them though";
+				quotes[2] = "I once got chased by a dog through the woods while running in cross country";
+				quotes[3] = "I can make really good homemade macaroni and cheese!";
+				quotes[4] = "I became interested in improv and theater because of dungeons and dragons";
+				quotes[5] = "My mains in Smash Ultimate are Lucas, Olimar, and Little Mac";
+				quotes[6] = "My favorite book series is Hitchiker's Guide to the Galaxy";
+				var rand = Math.floor((Math.random()*10)%quotes.length);
+				document.write(quotes[rand]);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div class="center-header">
+			<h1>Alexander J. Stewart</h1>
+			<div id = 'navbar'>
+			<a class='nav-button' href='about.html'>about</a>
+			<a class='nav-button' href='work.html'>work</a>
+			<a class='nav-button' href='coursework.html'>coursework</a>
+			<a class='nav-button' target = '_blank' href='AlexanderStewartResume1.pdf'>resume</a>
+			</div>
+			<h2>Fun Fact:</h2>
+			<script type="text/javascript">writeRandomQuote();</script>
+		</div>
+	</body>
+</html>
